@@ -1,0 +1,20 @@
+#img-cover{
+	width: 100%;
+}
+
+#title-header{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#log-in-btn{
+	margin-right: 20px;
+}
+
+.col-md-12{
+	margin-top: 10px;
+}
+
+.footer-copyright{
+	margin-top: -70px;
+}
