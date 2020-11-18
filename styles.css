@@ -48,8 +48,9 @@ h2{
 .text-block {
   position: absolute;
   bottom: 320px;
-  right: 24%;
+  right: 39%;
   background-color: white;
+  opacity: 0.8;
   color: black;
   padding-left: 20px;
   padding-right: 20px;
