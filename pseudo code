@@ -1,0 +1,88 @@
+pseudo code 
+
+1. Home Page
+
+//HTML
+create links to Log in page and Sign in page 
+
+//CSS
+mobile adjustments for all pages
+//JS
+
+2. Join Page 
+//HTML
+auto populate option 
+//full name field
+//email field
+//password field
+//password confirmation field
+//favorite genre drop down 
+//sign up with facebook (api)
+//join now 
+
+//CSS
+mobile adjustments for all pages
+
+//JS
+//create database for user information 
+
+//encrypt user data 
+
+//create code that signs a user up and saves their data 
+//create code that will display error messages when the data types entered in do not match 
+
+3. Login Page
+
+//HTML
+//create email field
+//create password field
+//remember me check box
+//login in
+//login with facebook 
+//forgot password?
+
+//CSS
+mobile adjustments for all pages
+//JS
+create code that will check email and password and let the user in the community based on credentials
+create error messeges for when the credentials do not match
+
+//create code for when someone forgets their password
+
+4. Discussion Board 
+//HTML
+create block for disscussion
+create block for comment
+create bar on the left where the threads live, maybe make it collapse with a hover option 
+
+//CSS
+mobile adjustments for all pages
+//JS
+create db for threads, users, notifications, "x person commented on x thread "
+the comment made on the thread will go into a list of comments under the reply 
+
+5.Calendar 
+
+//HTML
+Create Block Style images to represent the Books that the community will be reading each month 
+
+//CSS
+create block style images 
+mobile adjustments for all pages
+//JS
+if logged in give the feature to click on the pictures and that takes you to the discussions ab the books
+
+6. Resources 
+
+//HTML
+create sections for resources 
+community resources
+indie book stores 
+updates 
+
+//CSS
+just similar to the style of the homepage
+mobile adjustments for all pages
+
+//JS
+not much going on here with JS 
