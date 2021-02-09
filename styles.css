@@ -55,3 +55,57 @@ h2{
   padding-left: 20px;
   padding-right: 20px;
 }
+
+h2{
+	padding: 30px;
+	text-align: center;
+}
+
+.album{
+	text-align: center;
+	font-family: Monaco;
+	font-weight: bold;
+}
+
+.side-bar{
+	height: 750px;
+	width:300px;
+	background-color:#f8f9fa;
+	float: left;
+}
+
+.side-bar p {
+	padding-top: 75px;
+	padding-right: 30px;
+	text-align: center;
+	font-family: Monaco;
+	font-weight: bold;
+}
+
+.discussion-meat{
+	width: 1400px;
+	height: 600px;
+	background-color: #D3D3D3;
+}
+
+.discussion-meat img{
+	padding-top: 30px;
+	width: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+input{
+	margin-top: 60px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 1000px;
+	margin-left:40px;
+}
+
+h3{
+	font-family: Monaco;
+	text-align: center;
+	padding-top: 20px;
+}
