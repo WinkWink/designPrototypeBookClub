@@ -97,6 +97,7 @@ h2{
 }
 
 input{
+	text-align: 
 	margin-top: 60px;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -108,4 +109,30 @@ h3{
 	font-family: Monaco;
 	text-align: center;
 	padding-top: 20px;
+}
+.sign-up-box{
+	width: 600px;
+	border-style: solid;
+}
+
+
+input {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+}
+
+.hv-an-acct{
+	font-size: 13px;
+}
+
+h3{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+label{
+	font-size: 13px;
+	font-weight: bold;
 }
