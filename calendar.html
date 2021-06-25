@@ -2,84 +2,128 @@
 <html>
 <head>
 	<title>Calendar Page against the machine</title>
-	<script src="https://kit.fontawesome.com/5dcb2da325.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5dcb2da325.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<!-- dont get depression dont get depression -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html"><i class="fas fa-book-open"></i></a>
-      </li>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">Page Against The Machine</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="discussion.html">Discussion</a>
-      </li>
-<!--       <li class="nav-item">
-        <a class="nav-link" href="resources.html">Resources</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="calendar.html">Calendar</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" id="log-in-btn">Log In</button>
-      <button class="btn btn-primary my-2 my-sm-0" type="submit" id="sign-in-btn"><a id="sign-up-btn" href="Signup.html">Sign Up</a></button>
-    </form>
-  </div>
-</nav>
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="discussion.html">Discussion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="calendar.html">Calendar</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <button class="btn btn-outline-primary my-2 my-sm-0" id="log-in-btn"><a href="login.html">Log In</a></button>
+        <button class="btn btn-primary my-2 my-sm-0" type="submit" id="sign-in-btn"><a id="sign-up-btn" href="Signup.html">Sign Up</a></button>
+      </form>
+    </div>
+  </nav>
     
-    <h2>Book Calendar</h2>
+    <h2 style="text-align: center; font-size: 60px; margin-top: 30px;">Book Calendar</h2>
 
-      <div class="album py-5 bg-light">
+      <div class="album py-5">
         <div class="container">
 
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="media/book1.jpg" alt="Card image cap">
+                <img class="card-img-top" src="media/pp.jpg" alt="Card image cap">
                 <div class="card-body">January
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="media/feb.jpg" alt="Card image cap">
+                <img class="card-img-top" src="media/june.jpg" alt="Card image cap">
                 <div class="card-body">February
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="media/march.jpg" alt="Card image cap">
-                <div class="card-body">March
                 </div>
               </div>
             </div>
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="media/april.jpg" alt="Card image cap">
-                <div class="card-body">April
+                <img class="card-img-top" src="media/chanel.jpeg" alt="Card image cap">
+                <div class="card-body">March
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <img class="card-img-top" src="media/may.jpg" alt="Card image cap">
+                <div class="card-body">April
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="media/april.jpg" alt="Card image cap">
                 <div class="card-body">May
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="media/june.jpg" alt="Card image cap">
+                <img class="card-img-top" src="media/march.jpg" alt="Card image cap">
                 <div class="card-body">June
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="media/design.jpeg" alt="Card image cap">
+                <div class="card-body">July
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="media/dream-house.jpeg" alt="Card image cap">
+                <div class="card-body">August
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="media/money.jpeg" alt="Card image cap">
+                <div class="card-body">September
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="media/61npQHfWgAL.jpeg" alt="Card image cap">
+                <div class="card-body">October
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="media/face.jpg" alt="Card image cap">
+                <div class="card-body">November
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="media/marx.jpeg" alt="Card image cap">
+                <div class="card-body">December
                 </div>
               </div>
             </div>
@@ -111,17 +155,6 @@
           <a href="discussion.html">Discussion</a>
         </h6>
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="resources.html">Resources</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
           <a href="calendar.html">Calendar</a>
@@ -138,13 +171,6 @@
 
       <!-- Grid column -->
       <div class="col-md-8 col-12 mt-5 margin-top">
-        <p><a href="https://icons8.com">illustration by Ouch.pics </a></p>
-
-        <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-          explicabo.
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
       </div>
       <!-- Grid column -->
 

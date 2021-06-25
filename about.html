@@ -2,124 +2,126 @@
 <html>
 <head>
   <title>About page against the machine</title>
-    <script src="https://kit.fontawesome.com/5dcb2da325.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="styles.css"> 
+  <script src="https://kit.fontawesome.com/5dcb2da325.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html"><i class="fas fa-book-open"></i></a>
-      </li>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">Page Against The Machine</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="discussion.html">Discussion</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="resources.html">Resources</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="calendar.html">Calendar</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" id="log-in-btn">Log In</button>
-      <button class="btn btn-primary my-2 my-sm-0" type="submit" id="sign-in-btn"><a id="sign-up-btn" href="Signup.html">Sign Up</a></button>
-    </form>
-  </div>
-</nav>
-<!-- Footer -->
-<footer class="page-footer font-small indigo">
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="discussion.html">Discussion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="calendar.html">Calendar</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <button class="btn btn-outline-primary my-2 my-sm-0" id="log-in-btn"><a href="login.html">Log In</a></button>
+        <button class="btn btn-primary my-2 my-sm-0" type="submit" id="sign-in-btn"><a id="sign-up-btn" href="Signup.html">Sign Up</a></button>
+      </form>
+    </div>
+  </nav>
 
-  <!-- Footer Links -->
+  <!-- title block -->
+  <div class="about-us-title">
+    <h1 class="about-us-title-header">About Us</h1>
+    <img class="img-cover" class="about-us-title" src="media/pablo-reading-books.png">
+  </div>
+
+  <!-- mission -->
+  <h5 style="text-align: center;">Our mission is to connect individuals remotely to create a community. We want to inspire</h5>
+  <h5 style="text-align: center; margin-top: 15px;">like minded people to come together over learning and challenging the staus quo. We think learning</h5>
+  <h5 style="text-align: center; margin-top: 15px;">has the magic power to connect people from all walks of life to build understanding amoungst us.</h5>
+
+  <!-- meet the team   -->
+  <div id="bigger-container">
+    <h5 style="text-align: center; font-size: 30px; padding-top: 50px;">Meet Our Team</h5>
+    <div id="meet-the-team-grid"> 
+      <div class="team-grid-item"><img src="media/leo.png"></div>
+      <p class="team-grid-item">Meet Leo: <br> Leo is a Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <div class="team-grid-item"><img src="media/august.png"></div>
+      <p class="team-grid-item">Meet August: <br> August is a But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound. beatae vitae dicta sunt explicabo.</p>
+      <div class="team-grid-item"><img src="media/luna.png"></div>
+      <p class="team-grid-item">Meet Luna: <br> Luna is a At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
+      <div class="team-grid-item"><img src="media/atticus.png"></div>
+      <p class="team-grid-item">Meet Atticus: <br> Atticus is a Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+    </div>
+  </div>
+
+<!-- title block end -->
+
+<!-- footer -->
+<footer class="page-footer font-small indigo">
   <div class="container">
 
-    <!-- Grid row-->
     <div class="row text-center d-flex justify-content-center pt-5 mb-3">
 
-      <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
           <a href="about.html">About us</a>
         </h6>
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
           <a href="discussion.html">Discussion</a>
         </h6>
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="resources.html">Resources</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
           <a href="calendar.html">Calendar</a>
         </h6>
       </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row-->
+
     <hr class="rgba-white-light" style="margin: 0 15%;">
 
-    <!-- Grid row-->
     <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
 
-      <!-- Grid column -->
       <div class="col-md-8 col-12 mt-5 margin-top">
-        <p><a href="https://icons8.com">illustration by Ouch.pics </a></p>
-
+        <p>Illustration by <a href="https://icons8.com/illustrations/author/5bf673a26205ee0017636674" target="_blank">Anna Golde</a> from <a href="https://icons8.com/illustrations" target="_blank">Ouch!</a></p>
+        <p style="margin-bottom: 50px;">Illustration by <a href="https://icons8.com/illustrations/author/5eb2a7bd01d0360019f124e7" target="_blank">Olha Khomich</a> from <a href="https://icons8.com/illustrations" target="_blank">Ouch!</a></p>
       </div>
-      <!-- Grid column -->
 
     </div>
-    <!-- Grid row-->
     <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
 
-    <!-- Grid row-->
     <div class="row pb-3">
 
-      <!-- Grid column -->
       <div class="col-md-12" style="display: inline-block; text-align: center;">
 
         <div class="mb-5 flex-center">
 
-          <!-- Facebook -->
           <a class="fb-ic">
             <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
           </a>
-          <!-- Twitter -->
           <a class="tw-ic">
             <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
           </a>
-          <!-- Google +-->
           <a class="gplus-ic">
             <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
           </a>
-          <!--Linkedin -->
           <a class="li-ic">
             <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
           </a>
-          <!--Instagram-->
           <a class="ins-ic">
             <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
           </a>
-          <!--Pinterest-->
           <a class="pin-ic">
             <i class="fab fa-pinterest fa-lg white-text"> </i>
           </a>
@@ -127,21 +129,13 @@
         </div>
 
       </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row-->
-
   </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright
   </div>
-  <!-- Copyright -->
 
 </footer>
-<!-- Footer -->
+<!-- footer end -->
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 </body>

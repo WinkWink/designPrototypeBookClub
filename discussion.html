@@ -2,57 +2,72 @@
 <html>
 <head>
 	<title>Discussion page against the machine</title>
-  	<script src="https://kit.fontawesome.com/5dcb2da325.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5dcb2da325.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html"><i class="fas fa-book-open"></i></a>
-      </li>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">Page Against The Machine</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="discussion.html">Discussion</a>
-      </li>
-<!--       <li class="nav-item">
-        <a class="nav-link" href="resources.html">Resources</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="calendar.html">Calendar</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" id="log-in-btn">Log In</button>
-      <button class="btn btn-primary my-2 my-sm-0" type="submit" id="sign-in-btn"><a id="sign-up-btn" href="Signup.html">Sign Up</a></button>
-    </form>
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="discussion.html">Discussion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="calendar.html">Calendar</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <button class="btn btn-outline-primary my-2 my-sm-0" id="log-in-btn"><a href="login.html">Log In</a></button>
+        <button class="btn btn-primary my-2 my-sm-0" type="submit" id="sign-in-btn"><a id="sign-up-btn" href="Signup.html">Sign Up</a></button>
+      </form>
+    </div>
+  </nav>
+<!-- login form  -->
+<div class="sign-up-box col-md-8 mx-auto container ">
+  <h3 id="login-h3">Login to View This Page</h3>
+  <form class="">  
+  <div class="email form-group .center-block">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
   </div>
-</nav>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Password</label>
+    <div class="col-sm">
+      <input type="email" class="form-control" id="password" placeholder="Enter password">
+    </div>
+  </div>
 
-<h2>Book Discussion</h2>
+    <div class="text-center">
+      <button type="button" class="btn btn-primary btn-block submit">Login</button>
+    </div>
+  </form>  
 
-<div class="side-bar">
-  <p>January</p>
-  <p>February</p>
-  <p>March</p>
-  <p>April</p>
-  <p>May</p>
-  <p>June</p>
+  <h5 class="forgot-pw" style="text-align: center;"><a>Forgot your password?</a> <a id="blue" href="Signup.html">Sign up for new acct</a></h5>
+
 </div>
-
-<div class="discussion-meat">
-    <h3>January: It Didn't Start With You</h3>
-    <img src="media/book1.jpg">
-    <input type="text" name="comment" placeholder="add comment">
-</div>
+  
+  <!-- Footer Links -->
 
 
+  <!-- Copyright -->
 
-
+</footer>
+<!-- Footer -->
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 </body>
